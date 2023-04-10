@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector("#content");console.log("Restaurant Active"),e.innerHTML="Welcome"})();
