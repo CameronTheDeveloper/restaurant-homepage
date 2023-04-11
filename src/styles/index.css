@@ -1,4 +1,7 @@
-#content {
+body {
     background-color: #439d31;
+}
 
+button {
+    cursor: pointer;
 }
