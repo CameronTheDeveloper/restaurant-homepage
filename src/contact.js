@@ -2,17 +2,20 @@ const displayContact = (content) => {
 
     content.innerHTML = '';
     const ownerNameDiv = document.createElement('div');
-    const ownerNumDiv = document.createElement('div');
-
+    const PhoneNumDiv = document.createElement('div');
+    const addressDiv = document.createElement('div');
 
     ownerNameDiv.classList.add('owner-name');
-    ownerNumDiv.classList.add('owner-number');
+    PhoneNumDiv.classList.add('phone-number');
+    addressDiv.classList.add('address');
 
     content.appendChild(ownerNameDiv);
-    content.appendChild(ownerNumDiv);
+    content.appendChild(PhoneNumDiv);
+    content.appendChild(addressDiv);
 
-    ownerNameDiv.innerHTML = "Owner: First M. Last ";
-    ownerNumDiv.innerHTML = "Call: (000)-000-0000";
+    ownerNameDiv.innerHTML = 'Owner: First M. Last ';
+    PhoneNumDiv.innerHTML = 'Call: (000)-000-0000';
+    addressDiv.innerHTML = '123 Main Street, Suite 456 Meadowbrook, CA 98765';
 
 };
 
