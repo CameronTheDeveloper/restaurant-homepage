@@ -1,6 +1,11 @@
+#container {
+    grid-template-rows: 1fr 8fr;
+}
+
 #content {
     font-size: 2.5rem;
     justify-items: center;
+    justify-content: start;
     align-items: center;
-    grid-template-rows: 1fr 1fr 1fr 5fr;
+    grid-template-rows: 3fr 3fr 3fr 2fr;
 }
