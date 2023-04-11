@@ -19,8 +19,8 @@ const displayWelcome = (content) => {
     welcomeImgDiv.appendChild(welcomeImg);
 
     welcomeBodyDiv.classList.add('welcome-body');
-    welcomeBodyDiv.innerHTML = "Join us at one of our finest locations to experience ambient fine-dining atmosphere" +
-        " and the wonderful flavors of nature in our signature dishes.";
+    welcomeBodyDiv.innerHTML = 'Dine with us at one of our finest locations to experience ambient fine-dining atmosphere' +
+        ' and the wonderful flavors of nature in our signature dishes.';
     content.appendChild(welcomeTitleDiv);
     content.appendChild(welcomeImgDiv);
     content.appendChild(welcomeBodyDiv);
