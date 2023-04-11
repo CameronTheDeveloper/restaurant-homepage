@@ -1,0 +1,6 @@
+#content {
+    font-size: 2.5rem;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr 5fr;
+}

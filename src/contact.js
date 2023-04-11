@@ -1,3 +1,5 @@
+import './styles/contact.css';
+
 const displayContact = (content) => {
 
     content.innerHTML = '';
@@ -13,8 +15,8 @@ const displayContact = (content) => {
     content.appendChild(PhoneNumDiv);
     content.appendChild(addressDiv);
 
-    ownerNameDiv.innerHTML = 'Owner: First M. Last ';
-    PhoneNumDiv.innerHTML = 'Call: (000)-000-0000';
+    ownerNameDiv.innerHTML = 'First M. Last ';
+    PhoneNumDiv.innerHTML = '(000)-000-0000';
     addressDiv.innerHTML = '123 Main Street, Suite 456 Meadowbrook, CA 98765';
 
 };
