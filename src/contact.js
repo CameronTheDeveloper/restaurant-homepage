@@ -1,7 +1,4 @@
-const content = document.querySelector('#content');
-
-
-const displayContact = () => {
+const displayContact = (content) => {
 
     content.innerHTML = '';
     const ownerNameDiv = document.createElement('div');

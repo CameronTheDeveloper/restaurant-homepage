@@ -1,18 +1,16 @@
 import nature_restaurant_img from './images/nature_restaurant.png';
 import './styles/welcome.css';
 
-const content = document.querySelector('#content');
 const welcomeImg = new Image();
 
 welcomeImg.src = nature_restaurant_img;
 
+const displayWelcome = (content) => {
 
-const displayWelcome = () => {
     const welcomeTitleDiv = document.createElement('div');
     const welcomeImgDiv = document.createElement('div');
     const welcomeBodyDiv = document.createElement('p');
 
-    content.style.backgroundColor = "#439d31";
 
     welcomeTitleDiv.classList.add('welcome-title');
     welcomeTitleDiv.innerHTML = 'Welcome to Nature Restaurant';

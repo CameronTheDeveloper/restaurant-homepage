@@ -11,14 +11,14 @@ contactButton.innerHTML = 'Contact Info';
 
 content.appendChild(welcomeButton);
 content.appendChild(contactButton);
-displayWelcome();
+displayWelcome(content);
 
 welcomeButton.addEventListener('click', () => {
     content.innerHTML = '';
-    displayWelcome();
+    displayWelcome(content);
 });
 
 contactButton.addEventListener('click', () => {
     content.innerHTML = '';
-    displayContact();
+    displayContact(content);
 });
