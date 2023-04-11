@@ -5,7 +5,12 @@ body {
 #container {
     display: grid;
     grid-template-rows: 1fr 12fr;
+}
 
+#content {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
 }
 
 #buttons {
