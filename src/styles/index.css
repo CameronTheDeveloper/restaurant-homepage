@@ -2,6 +2,24 @@ body {
     background-color: #439d31;
 }
 
+#container {
+    display: grid;
+    grid-template-rows: 1fr 12fr;
+
+}
+
+#buttons {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    gap: 16px;
+}
+
 button {
     cursor: pointer;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 1rem;
+    background-color: rgb(5, 119, 5);
+    border: 0;
 }
