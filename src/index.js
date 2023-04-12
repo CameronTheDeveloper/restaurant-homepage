@@ -1,6 +1,8 @@
 import './styles/index.css';
 import { displayWelcome } from './welcome';
+import { displayMenu } from './menu';
 import { displayContact } from './contact';
+
 
 const content = document.querySelector('#content');
 const buttons = document.querySelector('#buttons');
@@ -22,6 +24,11 @@ displayWelcome(content);
 welcomeButton.addEventListener('click', () => {
     content.innerHTML = '';
     displayWelcome(content);
+});
+
+menuButton.addEventListener('click', () => {
+    content.innerHTML = '';
+    displayMenu(content);
 });
 
 contactButton.addEventListener('click', () => {
