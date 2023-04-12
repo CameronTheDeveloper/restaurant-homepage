@@ -18,14 +18,17 @@ body {
     justify-self: center;
     align-self: center;
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
-button {
+#buttons button {
+    color: rgb(0, 0, 0);
     cursor: pointer;
-    padding: 16px;
+    width: 155px;
+    padding: 12px;
     border-radius: 12px;
-    font-size: 1rem;
-    background-color: rgb(5, 119, 5);
-    border: 0;
+    font-size: 1.3rem;
+    background-color: rgb(41, 132, 41);
+    border: 1px solid black;
+    font-weight: 700;
 }
