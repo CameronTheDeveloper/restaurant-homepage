@@ -22,16 +22,13 @@ buttons.appendChild(contactButton);
 displayWelcome(content);
 
 welcomeButton.addEventListener('click', () => {
-    content.innerHTML = '';
     displayWelcome(content);
 });
 
 menuButton.addEventListener('click', () => {
-    content.innerHTML = '';
     displayMenu(content);
 });
 
 contactButton.addEventListener('click', () => {
-    content.innerHTML = '';
     displayContact(content);
 });
