@@ -8,9 +8,15 @@ function createFood(foodName, foodPrice) {
 }
 
 const displayMenu = (content) => {
-    content.innerHTML = '';
     const pizza = createFood('Nature Pizza', 12.99);
-    pizza.displayFood(content);
+    const burger = createFood('Nature Burger', 11.99);
+    const specialsAr = [pizza, burger];
+    content.innerHTML = '';
+
+    for (let i = 0; i < specialsAr.length; i++) {
+        specialsAr[i].displayFood(content);
+    }
+
 };
 
 export { displayMenu };
