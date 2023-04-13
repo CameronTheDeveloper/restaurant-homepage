@@ -28,7 +28,7 @@ const displayWelcome = (content) => {
     welcomeTitleDiv.innerHTML = 'Welcome to Nature Restaurant';
 
 
-    welcomeBodyDiv.innerHTML = 'Dine with us at one of our finest locations to experience ambient fine-dining atmosphere' +
+    welcomeBodyDiv.innerHTML = 'Dine with us at our finest location to experience ambient fine-dining atmosphere' +
         ' and the wonderful flavors of nature in our signature dishes.';
 
     welcomeImgDiv.appendChild(welcomeImg);
