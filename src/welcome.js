@@ -15,12 +15,11 @@ pizzaImg.src = nature_pizza;
 soupImg.src = nature_soup;
 
 const displayWelcome = (content) => {
-
     const welcomeTitleDiv = document.createElement('div');
     const welcomeImgDiv = document.createElement('div');
     const welcomeBodyDiv = document.createElement('p');
     const foodImgDiv = document.createElement('div');
-
+    content.innerHTML = '';
     welcomeTitleDiv.classList.add('welcome-title');
     welcomeImgDiv.classList.add('welcome-img');
     welcomeBodyDiv.classList.add('welcome-body');
