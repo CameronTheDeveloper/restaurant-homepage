@@ -19,7 +19,7 @@ const displayContact = (content) => {
 
     nameDiv.innerHTML = 'Nature Restaurant';
     PhoneNumDiv.innerHTML = '(000)-000-0000';
-    scheduleDiv.innerHTML = 'Monday-Friday -- 1:00pm-11:00pm';
+    scheduleDiv.innerHTML = 'Weekdays, 1:00 PM -11:00 PM';
     addressDiv.innerHTML = '123 Main Street, Suite 456 Meadowbrook, CA 98765';
 
 };

@@ -9,7 +9,7 @@
     justify-items: center;
     justify-content: start;
     align-items: center;
-    grid-template-rows: 2fr repeat(3, 1fr) 10fr;
+    grid-template-rows: 2fr repeat(3, 2fr) 11fr;
 }
 
 .name {
