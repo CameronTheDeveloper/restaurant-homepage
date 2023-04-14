@@ -1,6 +1,11 @@
+#content {
+    text-align: center;
+}
+
 .title {
-    font-size: 3rem;
+    font-size: 3.4rem;
     font-weight: bold;
     text-decoration: underline;
-    margin-bottom: 12px;
+    margin: 12px;
+    margin-top: 64px;
 }
