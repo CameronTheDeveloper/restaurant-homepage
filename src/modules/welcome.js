@@ -1,8 +1,9 @@
-import nature_restaurant_img from './images/nature_restaurant.png';
-import nature_soup from './images/nature_soup.png';
-import nature_pizza from './images/nature_pizza.png';
-import nature_burger from './images/nature_burger.png';
-import './styles/welcome.css';
+import '../styles/welcome.css';
+import nature_restaurant_img from '../images/nature_restaurant.png';
+import nature_soup from '../images/nature_soup.png';
+import nature_pizza from '../images/nature_pizza.png';
+import nature_burger from '../images/nature_burger.png';
+
 
 const welcomeImg = new Image();
 const burgerImg = new Image();

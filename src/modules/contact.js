@@ -1,4 +1,4 @@
-import './styles/contact.css';
+import '../styles/contact.css';
 
 const displayContact = (content) => {
     const nameDiv = document.createElement('div');

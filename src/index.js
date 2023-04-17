@@ -1,7 +1,7 @@
 import './styles/index.css';
-import { displayWelcome } from './welcome';
-import { displayMenu } from './menu';
-import { displayContact } from './contact';
+import { displayWelcome } from './modules/welcome';
+import { displayMenu } from './modules/menu';
+import { displayContact } from './modules/contact';
 
 
 const content = document.querySelector('#content');

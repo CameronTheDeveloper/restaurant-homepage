@@ -1,4 +1,4 @@
-import './styles/menu.css';
+import '../styles/menu.css';
 
 const pizza = createFood('Nature Pizza', 12.99);
 const burger = createFood('Nature Burger', 11.99);
